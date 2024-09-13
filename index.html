@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правила</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Правила</a></li>
+            <li><a href="forms.html">Подача заявок</a></li>
+        </ul>
+    </nav>
+
+    <div class="rules-content">
+        <h1 class="rules">Правила</h1>
+        <div class="rules-container">
+            <p>1. Запрещены любые шутки и упоминания нацистских символов и лозунгов.</p>
+            <p>2. Не обсуждаем конфликт между Россией и Украиной.</p>
+            <p>3. Спам и флуд недопустимы.</p>
+            <p>4. Жестокое обращение с животными строго запрещено.</p>
+            <p>5. Уважительно относимся к другим участникам, избегаем ссор и оскорблений.</p>
+            <p>6. Не оскорбляем администрацию.</p>
+            <p>7. Оскорбления родителей не допускаются.</p>
+            <p>8. NSFW и шок-контент запрещены.</p>
+            <p>9. Реклама каналов и ботов запрещена.</p>
+            <p>10. Не отправляйте краш-стикеры и другие вредоносные файлы.</p>
+            <p>11. Запрещены оскорбления на расовой или религиозной почве.</p>
+            <p>12. Нецензурные или неприемлемые комментарии не допускаются.</p>
+            <p>13. Чрезмерное использование любых юзер ботов или спам в логи чтобы прикрыть другого человека запрещено.</p>
+            <p>14. Запрещено быть за Палестину - бан.</p>
+            <p>15. Использование инлайн ботов, которые не несут пользы и могут нести флуд, запрещается.</p>
+            <p>16. Администраторы могут действовать по своему усмотрению для поддержания порядка.</p>
+            <br>
+            <p>Пожалуйста, соблюдайте правила и ведите себя уважительно. Невежество не освобождает от ответственности.</p>
+         </div>
+    </div>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
