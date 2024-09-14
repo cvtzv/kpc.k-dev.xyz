@@ -36,6 +36,14 @@
         <p id="responseMessage" style="color: white;"></p>
     </div>
 
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
     <script src="tgForm.js"></script>
 </body>
 </html>
