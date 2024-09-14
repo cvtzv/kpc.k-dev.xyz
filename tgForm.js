@@ -12,7 +12,7 @@ document.getElementById('application-form').addEventListener('submit', function 
     };
 
     // Отправляем данные на Pipedream
-    fetch('https://YOUR_PIPEWEBOOK_URL', { // Здесь вставить URL Webhook от Pipedream
+    fetch('https://eogtamo1s6tm2xq.m.pipedream.net', { // Здесь вставить URL Webhook от Pipedream
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
